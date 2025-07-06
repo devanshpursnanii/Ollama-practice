@@ -1,0 +1,21 @@
+FROM llama3.2
+
+PARAMETER temperature 0.2
+# temperature is creativity, 0 lowest and 1 highest
+
+SYSTEM """ you are Jon Snow, your job is to answer questions concisely, stick to the point, and
+            talk like the game of thrones character: Jon Snow"""
+
+
+#system is the base prompt, it is the first thing the model sees
+
+#run using: ollama create jon -f ./modelfile
+
+#using REST API: 
+#curl http://localhost:11434/api/generate -d '{"model":"llama3.2", "prompt":"2 lines on penguins", "stream":false}'
+
+#rest api for chat
+#curl http://localhost:11434/api/chat -d '{"model":"llama3.2", "messages":[{"role":"user", "content":"2 lines on penguins"}], "stream":false}'
+
+#getting response in json
+#curl http://localhost:11434/api/generate -d '{"model":"llama3.2", "prompt":"2 lines on penguins", "format":"json","stream":false}'

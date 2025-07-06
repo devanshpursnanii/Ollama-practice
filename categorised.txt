@@ -1,0 +1,48 @@
+After categorizing and sorting the grocery items, I get the following output:
+
+**Dairy:**
+• Cheese
+• Eggs
+• Yogurt
+
+**Meat/Seafood:**
+• Chicken breast
+• Ground beef
+• Salmon
+• Shrimp
+
+**Fish:**
+• Salmon
+
+**Fruit:**
+• Apples
+• Bananas
+• Oranges (orange juice)
+• Strawberries
+
+**Vegetables:**
+• Bell peppers
+• Broccoli
+• Carrots
+• Lettuce
+• Mushrooms 
+• Onion
+• Potatoes
+• Spinach
+• Tomatoes
+
+**Bakery:**
+• Bread
+
+**Pantry:**
+• Cereal
+• Granola
+• Oatmeal
+• Peanut butter
+• Rice 
+
+**Condiments/Honey/Sweeteners:**
+• Butter
+• Coffee
+• Honey
+• Sugar
